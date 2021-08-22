@@ -1,3 +1,0 @@
-def sum_list(items):
-   sum_number=0
-   for x in

@@ -1,0 +1,62 @@
+Tell time complexity of all the problems:
+(ignore syntax errors, if any)
+Q - 1 )Below are nested “K” for loops (5 marks)
+n= int(input(“Enter the limit”))
+for i in range(n):
+for j in range(n):
+for l in range(n):
+…
+…
+…
+K for loops in total
+…
+…
+…
+for z in range(n):
+print(“Time complexity”)
+timecomlexity=O(n**k)
+
+
+
+
+Q - 2 ) (5 marks)
+n= int(input(“Enter the limit”))
+i = 1
+while(i
+2<=n):
+print(“Time complexity”)
+i += 1
+
+time complexity=O(log n)
+
+Q - 3 ) (5 marks)
+N= int(input(“Enter the limit”))
+M= int(input(“Enter the limit”))
+a = b = 0
+for i in range(N):
+a = a + 1
+for j in range(M):
+b = b + rand()
+P.T.O
+
+time complexity=O(m+n)
+
+Q - 6 ) [BONUS QUESTION] (6 marks)
+n= int(input(“Enter the limit”))
+for i in range(n):
+j = 1
+while(j<=i
+2
+):
+for k in range(n/2):
+print(“Time complexity”)
+
+
+time complexity=O(n**3)
+
+
+Marks distribution:
+Question 1,2, 3 carry 5 marks each.
+Question 6 is a bonus question, that means if you leave that question you don't lose a mark, but
+if you solve it, you can get an extra 6 marks.
+Remark: maximum marks you can get is 15, bonus question helps only if you are not able to
